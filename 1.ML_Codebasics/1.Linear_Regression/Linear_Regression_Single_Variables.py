@@ -45,4 +45,4 @@ d.to_csv("predicted_prices.csv", index=False)
 
 # Visualize the linear regression line along with the scatter plot
 plt.plot(df.area, reg.predict(df[['area']]), color='blue')
-plt.show())
+plt.show()
